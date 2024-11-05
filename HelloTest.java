@@ -1,5 +1,8 @@
+import java.util.Scanner;
 public class HelloTest {
     public static void main(String[] args) {
-        System.out.println("Hello, Intellij!");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String message= scanner.nextLine();
     }
 }
